@@ -1,3 +1,5 @@
+#!/usr/bin/env python
+
 def convert(c):
     if (c == 'A'): return 'C'
     if (c == 'C'): return 'G'
@@ -9,6 +11,8 @@ print("Start")
 opt = "ACGT"
 s = ""
 s_last = ""
+
+# Modifica este valor para definir la longitud de los k-mers
 len_str = 13
 
 for i in range(len_str):
@@ -32,7 +36,6 @@ while (s != s_last):
             else:
                 s = s[:i] + convert(s[i]) + s[i+1:]
                 break
-
 # You can uncomment the next line to see all k-mers.
 # print(s)
 print("Number of generated k-mers: {}".format(counter))
