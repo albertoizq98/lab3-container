@@ -1,38 +1,40 @@
-Voy a llevar a cabo la ejecución de los 4 programas midiendo el tiempo de cada uno
+Para empezar se carga el modulo de singularity
+
+A continuacion, voy a llevar a cabo la ejecución de los 4 programas midiendo el tiempo de cada uno utilizando la imagen
 Programa de k-mer13 de c++:
 Start
 Number of generated k-mers: 67108864
 Finish!
 
-real	0m0,715s
-user	0m0,715s
-sys	0m0,000s
+real	0m0,970s
+user	0m0,800s
+sys	0m0,126s
 
 Programa de k-mer13 de python:
 Start
 Number of generated k-mers: 67108864
 Finish!
 
-real	1m41,432s
-user	1m41,282s
-sys	0m0,004s
+real	1m31,134s
+user	1m30,785s
+sys	0m0,183s
 
 Programa de k-mer14 de c++:
 Start
 Number of generated k-mers: 268435456
 Finish!
 
-real	0m2,919s
-user	0m2,915s
-sys	0m0,001s
+real	0m2,995s
+user	0m2,832s
+sys	0m0,123s
 
 Programa de k-mer14 de python:
 Start
 Number of generated k-mers: 268435456
 Finish!
 
-real	6m30,819s
-user	6m30,249s
-sys	0m0,005s
+real	6m20,328s
+user	6m19,583s
+sys	0m0,179s
 
 Fin de la ejecución
